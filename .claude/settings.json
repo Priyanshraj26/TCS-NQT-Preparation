@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where python:*)",
+      "Bash(python -c \"import reportlab; print\\(reportlab.__file__\\)\")",
+      "Bash(\"C:\\\\Users\\\\Acer\\\\anaconda3\\\\python.exe\" -c \"import reportlab; print\\(reportlab.__file__\\)\")",
+      "Bash(python -m pip install pypdf reportlab pdfplumber pdfminer.six gdown)",
+      "Bash(\"C:\\\\Users\\\\Acer\\\\anaconda3\\\\python.exe\" -m pip install pypdf reportlab pdfplumber pdfminer.six gdown)",
+      "Bash(\"C:\\\\Users\\\\Acer\\\\anaconda3\\\\python.exe\" utils/pdf_generator.py)",
+      "Bash(find . -type d -empty -exec sh -c 'touch \"$1/.gitkeep\"' _ {} \\\\;)",
+      "Bash(\"C:\\\\Users\\\\Acer\\\\anaconda3\\\\python.exe\" scripts/generate_os_pdf.py)",
+      "Bash(\"C:\\\\Users\\\\Acer\\\\anaconda3\\\\python.exe\" scripts/generate_networks_pdf.py)",
+      "Bash(\"C:\\\\Users\\\\Acer\\\\anaconda3\\\\python.exe\" scripts/generate_previous_papers_pdf.py)",
+      "Bash('C:\\\\Users\\\\Acer\\\\anaconda3\\\\python.exe' -c ':*)"
+    ]
+  }
+}

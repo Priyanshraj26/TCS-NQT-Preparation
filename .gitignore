@@ -1,0 +1,26 @@
+# Compiled C++ files
+*.o
+*.out
+*.exe
+solution
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+*.tmp
+temp/
+downloads/
